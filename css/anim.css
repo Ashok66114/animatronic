@@ -1,0 +1,193 @@
+
+.logo{
+    height: 70px;
+    width: auto;
+}
+
+.title{
+    font-size: 32px;
+    color: rgb(109, 109, 109);
+}
+
+/*navbar*/
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar .navbar-collapse{
+    flex-direction: row-reverse;
+}
+.navbar .nav-item{
+    padding: 0 0 0 15px ;
+    font-weight: bold;
+}
+ .navbar-nav .nav-item .nav-link.active{
+    color: coral;
+}
+/*About Section*/
+.introduction{
+    color: white;
+}
+.overlay{
+    padding-top: 8rem;
+    height: 500px;
+    background: rgba(22, 22, 22, .80);
+    z-index: 1;
+}
+.intro p{
+    font-size: 18px;
+    padding: 1rem 0;
+}
+.intro button{
+    border-radius: 25px;
+    padding: 5px 30px;
+}
+.intro button:hover{
+    background-color: coral;
+    border-color: coral;
+}
+
+/*Our Process*/
+.process i{
+    display: inline-block;
+    width: auto;
+    height: 70px;
+    width: 70px;
+    box-shadow: 5px 5px 5px 2px grey;
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 15px;
+}
+
+.reqanalysis:hover i{
+    color: coral;
+    border:1px solid coral;
+}
+
+.section_space{
+    margin:3rem 0;
+}
+.card_section .card_title i{
+    display: block;
+}
+
+.service{
+    background-color: rgb(238, 237, 237);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.service .card_section:hover i{
+    color: coral;
+}
+
+.service  .wordpress i:hover{
+    color:#00A0D2
+}
+
+.service  .paypal i:hover{
+    color:#0079C1;
+}
+
+/*Our Products*/
+.card_section a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.card-footer{
+    background-color: coral;
+    color: white;
+}
+.view{
+    background-color: coral;
+    color: black;
+    padding: 3px 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    
+}
+.view:hover{
+    color: white;
+}
+/*Our Team*/
+.team_image img{
+    height: 600px;
+    width: 100%;
+}
+.team img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.team p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*Testimonials*/
+
+.our_clients{
+    max-height: 100px;
+    max-width: auto;
+}
+.quote_section{
+    text-align: center;
+    justify-content: center;
+}
+.quote_section p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.quote_section p::before{
+    content: open-quote;
+}
+.quote_section p::after{
+    content: close-quote;
+}
+
+/*Map*/
+.map{
+    margin-bottom: 0;
+}
+
+/*footer*/
+footer{
+    background-color: #333;
+    color: white;
+    padding-top: 3rem;
+}
+.footer-logo{
+    color: white;
+}
+footer ul{
+    padding: 0;
+    list-style: none;
+}
+footer i{
+    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.social li{
+    display: inline;
+}
+.social .facebook{
+    background-color :#3B5998
+}
+.social .instagram{
+    background-color:RGB(253, 29, 29)
+}
+.social .linkedin{
+    background-color :#0e76a8
+}
+.foot_title h3{
+    color: rgb(209, 209, 209);
+}
+.footer-bottom{
+    padding: 5px 0;
+    background-color: black;
+}
