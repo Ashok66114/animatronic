@@ -24,6 +24,9 @@
  .navbar-nav .nav-item .nav-link.active{
     color: coral;
 }
+.navbar-nav .nav-item .nav-link:hover{
+    color: coral;
+}
 /*About Section*/
 .introduction{
     color: white;
@@ -102,17 +105,14 @@
     color: black;
     padding: 3px 20px;
     border-radius: 10px;
-    border: 1px solid #333;
-    
+    border: 1px solid #333;   
 }
 .view:hover{
     color: white;
+    background-color: #ff5a1d;
 }
+
 /*Our Team*/
-.team_image img{
-    height: 600px;
-    width: 100%;
-}
 .team img{
     height: 180px;
     width: 180px;
@@ -121,13 +121,40 @@
 .team p{
     font-size: 1rem;
     font-weight: 500;
+    margin-bottom: 7px;
+}
+.team a i{
+    margin-right: 5px;
+}
+.team .gmail{
+    color: #EA4335;
+}
+.team .instagram{
+    color:RGB(253, 29, 29);
 }
 
+.technologies_used img{
+    filter: grayscale(100%);
+    transition-duration: 0.3s;
+}
+.technologies_used img:hover{
+    filter: none;
+}
 /*Testimonials*/
-
 .our_clients{
     max-height: 100px;
     max-width: auto;
+}
+.testimonials_section{
+    padding: 2rem 0;
+    color: white;
+}
+.testimonials_section a{
+    color: white;
+    text-decoration: none;
+}
+.testimonials_section h2{
+    color: white;
 }
 .quote_section{
     text-align: center;
@@ -171,18 +198,17 @@ footer i{
     text-align: center;
     padding-top: 4px;
 }
-
 .social li{
     display: inline;
 }
 .social .facebook{
-    background-color :#3B5998
+    background-color :#3B5998;
 }
 .social .instagram{
-    background-color:RGB(253, 29, 29)
+    background-color:RGB(253, 29, 29);
 }
 .social .linkedin{
-    background-color :#0e76a8
+    background-color :#0e76a8;
 }
 .foot_title h3{
     color: rgb(209, 209, 209);
