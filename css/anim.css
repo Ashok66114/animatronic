@@ -125,6 +125,10 @@
 }
 .team a i{
     margin-right: 5px;
+    filter: grayscale(100%);
+}
+.team a i:hover{
+    filter: none;
 }
 .team .gmail{
     color: #EA4335;
@@ -133,6 +137,7 @@
     color:RGB(253, 29, 29);
 }
 
+/*Technology used*/
 .technologies_used img{
     filter: grayscale(100%);
     transition-duration: 0.3s;
@@ -140,6 +145,7 @@
 .technologies_used img:hover{
     filter: none;
 }
+
 /*Testimonials*/
 .our_clients{
     max-height: 100px;
